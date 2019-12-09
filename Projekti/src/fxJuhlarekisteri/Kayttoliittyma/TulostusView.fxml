@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="497.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxJuhlarekisteri.Kayttoliittyma.TulostusController">
+<bottom>
+<ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+<buttons>
+<Button mnemonicParsing="false" onAction="#handleTulosta" text="Tulosta" />
+<Button defaultButton="true" mnemonicParsing="false" onAction="#handleOK" text="OK" />
+</buttons>
+<padding>
+<Insets right="10.0" />
+</padding>
+</ButtonBar>
+</bottom>
+<center>
+<TextArea fx:id="tulostusAlue" prefHeight="200.0" prefWidth="200.0" text="Valitut juhlat ---------------------------------------------- id : 4 nimi : Ankka Iines hetu : 020406 katuosoite : Ankkakuja 9 postinumero : 12345 postiosoite : ANKKALINNA kotipuhelin : 12-1234 työpuhelin : autopuhelin : liittymisvuosi : 1996 jäsenmaksu : 50.00 maksettumaksu : 0.00 lisätietoja : Velkaa Roopelle ---------------------------------------------- Naisten kerho 1967 36 Meikkaaminen 1942 45 Keimailu 1971 31 Keilailu 1972 5 ---------------------------------------------- id : 5 nimi : Susi Sepe hetu : 020347-123T katuosoite : postinumero : 12555 postiosoite : Takametsä kotipuhelin : työpuhelin : autopuhelin : liittymisvuosi : 1962 jäsenmaksu : 50.00 maksettumaksu : 0.00 lisätietoja : ---------------------------------------------- possujen jahtaaminen 1954 20 kelmien kerho 1962 2 " BorderPane.alignment="CENTER">
+<font>
+<Font name="Consolas" size="12.0" />
+</font>
+</TextArea>
+</center>
+</BorderPane>
